@@ -1,0 +1,402 @@
+[
+  {
+    "teto": 0.7893491983413696,
+    "gfs": 0.791919469833374,
+    "semfut": 0.785481870174408,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_gfs",
+    "seed": 42,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.7471941113471985,
+    "gfs": 0.7515379786491394,
+    "semfut": 0.7419494390487671,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_gfs",
+    "seed": 43,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.7465145587921143,
+    "gfs": 0.7496169805526733,
+    "semfut": 0.7439073324203491,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_gfs",
+    "seed": 44,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.7751553058624268,
+    "gfs": 0.7823969721794128,
+    "semfut": 0.7758135795593262,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_gfs",
+    "seed": 45,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.8179675340652466,
+    "gfs": 0.8283219337463379,
+    "semfut": 0.8171452283859253,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_gfs",
+    "seed": 46,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.7445659637451172,
+    "gfs": 0.7474972009658813,
+    "semfut": 0.7431724071502686,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_teto",
+    "seed": 42,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.7363289594650269,
+    "gfs": 0.7379306554794312,
+    "semfut": 0.7341053485870361,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_teto",
+    "seed": 43,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.686782717704773,
+    "gfs": 0.6859127283096313,
+    "semfut": 0.6830915808677673,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_teto",
+    "seed": 44,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.7612669467926025,
+    "gfs": 0.7597746849060059,
+    "semfut": 0.7581297159194946,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_teto",
+    "seed": 45,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.8211294412612915,
+    "gfs": 0.8217059373855591,
+    "semfut": 0.8166096806526184,
+    "name": "LSTM_DUH_Base_SCS_AR_GC_teto",
+    "seed": 46,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.6026061177253723,
+    "gfs": 0.6002206206321716,
+    "semfut": 0.6043375730514526,
+    "name": "LSTM_DUH_Base_SCS_GC_gfs",
+    "seed": 42,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5173447132110596,
+    "gfs": 0.5173822045326233,
+    "semfut": 0.5162297487258911,
+    "name": "LSTM_DUH_Base_SCS_GC_gfs",
+    "seed": 43,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5695562362670898,
+    "gfs": 0.5710257291793823,
+    "semfut": 0.5684337615966797,
+    "name": "LSTM_DUH_Base_SCS_GC_gfs",
+    "seed": 44,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5311905145645142,
+    "gfs": 0.5444735288619995,
+    "semfut": 0.5375369787216187,
+    "name": "LSTM_DUH_Base_SCS_GC_gfs",
+    "seed": 45,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5405755043029785,
+    "gfs": 0.5410585403442383,
+    "semfut": 0.5419543981552124,
+    "name": "LSTM_DUH_Base_SCS_GC_gfs",
+    "seed": 46,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5410646200180054,
+    "gfs": 0.5387624502182007,
+    "semfut": 0.5411525964736938,
+    "name": "LSTM_DUH_Base_SCS_GC_teto",
+    "seed": 42,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.49562394618988037,
+    "gfs": 0.4958888292312622,
+    "semfut": 0.49397897720336914,
+    "name": "LSTM_DUH_Base_SCS_GC_teto",
+    "seed": 43,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.6117767095565796,
+    "gfs": 0.6145886182785034,
+    "semfut": 0.6078224182128906,
+    "name": "LSTM_DUH_Base_SCS_GC_teto",
+    "seed": 44,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.5902798175811768,
+    "gfs": 0.588429868221283,
+    "semfut": 0.5835316181182861,
+    "name": "LSTM_DUH_Base_SCS_GC_teto",
+    "seed": 45,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.5856664180755615,
+    "gfs": 0.5855780243873596,
+    "semfut": 0.5836716890335083,
+    "name": "LSTM_DUH_Base_SCS_GC_teto",
+    "seed": 46,
+    "model_type": "lstm_duh_base_scs",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.8439326882362366,
+    "gfs": 0.8431591391563416,
+    "semfut": 0.8191516399383545,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_gfs",
+    "seed": 42,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.8339724540710449,
+    "gfs": 0.8336100578308105,
+    "semfut": 0.8192991614341736,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_gfs",
+    "seed": 43,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.8451235890388489,
+    "gfs": 0.8483781814575195,
+    "semfut": 0.8243066072463989,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_gfs",
+    "seed": 44,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.8403856754302979,
+    "gfs": 0.8438178300857544,
+    "semfut": 0.8162699341773987,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_gfs",
+    "seed": 45,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.8431140780448914,
+    "gfs": 0.8418850898742676,
+    "semfut": 0.8120248317718506,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_gfs",
+    "seed": 46,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.789104700088501,
+    "gfs": 0.7867591381072998,
+    "semfut": 0.7759086489677429,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_teto",
+    "seed": 42,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.7903721928596497,
+    "gfs": 0.7835137248039246,
+    "semfut": 0.7899772524833679,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_teto",
+    "seed": 43,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.8276592493057251,
+    "gfs": 0.8217330574989319,
+    "semfut": 0.8138939142227173,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_teto",
+    "seed": 44,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.8488629460334778,
+    "gfs": 0.8523402214050293,
+    "semfut": 0.828697144985199,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_teto",
+    "seed": 45,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.7940352559089661,
+    "gfs": 0.7879967093467712,
+    "semfut": 0.7771215438842773,
+    "name": "LSTM_DUH_Base_Topmodel_AR_GC_teto",
+    "seed": 46,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": true,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.5863288640975952,
+    "gfs": 0.5821820497512817,
+    "semfut": 0.5618281364440918,
+    "name": "LSTM_DUH_Base_Topmodel_GC_gfs",
+    "seed": 42,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.6191035509109497,
+    "gfs": 0.6173596382141113,
+    "semfut": 0.6000653505325317,
+    "name": "LSTM_DUH_Base_Topmodel_GC_gfs",
+    "seed": 43,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.5307826995849609,
+    "gfs": 0.5321903824806213,
+    "semfut": 0.5071753859519958,
+    "name": "LSTM_DUH_Base_Topmodel_GC_gfs",
+    "seed": 44,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.6413954496383667,
+    "gfs": 0.6385599374771118,
+    "semfut": 0.631372332572937,
+    "name": "LSTM_DUH_Base_Topmodel_GC_gfs",
+    "seed": 45,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.6632981300354004,
+    "gfs": 0.6669235229492188,
+    "semfut": 0.6407126188278198,
+    "name": "LSTM_DUH_Base_Topmodel_GC_gfs",
+    "seed": 46,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "gfs"
+  },
+  {
+    "teto": 0.6069135069847107,
+    "gfs": 0.6124924421310425,
+    "semfut": 0.5710630416870117,
+    "name": "LSTM_DUH_Base_Topmodel_GC_teto",
+    "seed": 42,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.6644579768180847,
+    "gfs": 0.6719018220901489,
+    "semfut": 0.6386897563934326,
+    "name": "LSTM_DUH_Base_Topmodel_GC_teto",
+    "seed": 43,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.6311720609664917,
+    "gfs": 0.6324588060379028,
+    "semfut": 0.6209272146224976,
+    "name": "LSTM_DUH_Base_Topmodel_GC_teto",
+    "seed": 44,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.658510684967041,
+    "gfs": 0.656733512878418,
+    "semfut": 0.6521918773651123,
+    "name": "LSTM_DUH_Base_Topmodel_GC_teto",
+    "seed": 45,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "teto"
+  },
+  {
+    "teto": 0.5647310018539429,
+    "gfs": 0.5508531332015991,
+    "semfut": 0.567813515663147,
+    "name": "LSTM_DUH_Base_Topmodel_GC_teto",
+    "seed": 46,
+    "model_type": "lstm_duh_base_topmodel",
+    "use_ar": false,
+    "train_mode": "teto"
+  }
+]

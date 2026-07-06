@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the article and the archived repository."
+title: "DUH-SCS-TOPMODEL-LSTM (Forecasting): a differentiable hybrid hourly streamflow forecaster with autoregressive and forecast-rainfall channels"
+abstract: >-
+  Source code, processed dataset and per-run results for a factorial forecasting experiment
+  (AR grid 11 configurations x 5 seeds; GC grid 8 configurations x 5 seeds) attributing the
+  sources of skill of a differentiable hourly streamflow forecaster in the Preto River catchment
+  (Manuel Duarte, ANA 58585000), Brazilian Atlantic Forest: observed discharge (autoregressive
+  channel), embedded physics, and forecast rainfall from GraphCast (NOAA AIWP hindcast), the last
+  measured by an isolated test that re-evaluates each trained checkpoint under zero, observed and
+  forecast future rainfall.
+type: software
+authors:
+  - family-names: Azevedo
+    given-names: Vinicius
+    orcid: "https://orcid.org/0009-0009-9008-4095"
+    affiliation: "School of Civil Engineering, Architecture and Urban Design (FECFAU), University of Campinas (UNICAMP)"
+    email: contato@azevedoambiental.com
+  - family-names: Fagundes
+    given-names: Hugo de Oliveira
+    orcid: "https://orcid.org/0000-0003-2121-3059"
+    affiliation: "School of Civil Engineering, Architecture and Urban Design (FECFAU), University of Campinas (UNICAMP)"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/viniciusazeved/duh-scs-topmodel-lstm-forecasting-ar"
+keywords:
+  - streamflow forecasting
+  - differentiable hybrid model
+  - autoregressive input
+  - AI weather prediction
+  - GraphCast
+  - predictability ceiling
+  - LSTM
+  - distributed unit hydrograph
+preferred-citation:
+  type: article
+  title: "Observed discharge, embedded physics or forecast rainfall? Attributing the sources of skill of a differentiable hourly streamflow forecaster"
+  authors:
+    - family-names: Azevedo
+      given-names: Vinicius
+      orcid: "https://orcid.org/0009-0009-9008-4095"
+    - family-names: Fagundes
+      given-names: Hugo de Oliveira
+      orcid: "https://orcid.org/0000-0003-2121-3059"
+  journal: "Journal of Hydrology"
+  year: 2026
+  notes: "Manuscript in preparation."

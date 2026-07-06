@@ -1,0 +1,65 @@
+[project]
+name = "ttd-scs-lstm-forecasting-ar"
+version = "1.0.0"
+description = "Differentiable hybrid hourly streamflow forecaster (SCS-CN/TOPMODEL runoff + distributed unit hydrograph + LSTM) with autoregressive and forecast-rainfall (GraphCast) channels"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Vinicius Azevedo", email = "contato@azevedoambiental.com"},
+    {name = "Hugo de Oliveira Fagundes"},
+]
+keywords = [
+    "hydrology",
+    "deep-learning",
+    "lstm",
+    "streamflow-forecasting",
+    "autoregressive",
+    "graphcast",
+    "differentiable-physics",
+    "distributed-unit-hydrograph",
+    "scs-cn",
+    "topmodel",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Hydrology",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "h5py>=3.9",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.3",
+    "scipy>=1.11",
+    "tqdm>=4.66",
+    "pyarrow>=14.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0",
+    "ruff>=0.1",
+    "pytest>=7.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ttd_scs_lstm"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
