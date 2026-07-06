@@ -1,5 +1,6 @@
 # DUH-SCS-TOPMODEL-LSTM — Hourly Forecasting (AR + forecast rainfall)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21227520.svg)](https://doi.org/10.5281/zenodo.21227520)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An encoder–decoder LSTM streamflow **forecaster** (1–24 h) built on a differentiable hybrid
@@ -77,9 +78,9 @@ duh-scs-topmodel-lstm-forecasting-ar/
 ```
 
 The per-run model weights (`best_model.pt`, ~43 MB) and the raw `predictions.npz` (~45 MB,
-regenerable) are **not** in git — they are archived on Zenodo (see *Data availability*). The
-lightweight `results.json` (per-lead NSE + learned parameters) and the consolidated JSONs are
-enough to rebuild every table and figure.
+regenerable) are **not** in git — they are available from the corresponding author on request
+(see *Data availability*). The lightweight `results.json` (per-lead NSE + learned parameters) and
+the consolidated JSONs are enough to rebuild every table and figure.
 
 ## Installation
 
@@ -153,10 +154,11 @@ wet season so that early stopping selects well.
 
 ## Data availability
 
-The processed dataset and the lightweight results are in this repository; the per-run model
-weights and `predictions.npz` are archived on Zenodo:
+The processed dataset and the lightweight results are in this repository and archived on Zenodo;
+the per-run model weights and `predictions.npz` are available from the corresponding author on
+request:
 
-> **Zenodo DOI:** _to be minted when the versioned release is archived._
+> **Zenodo DOI:** [10.5281/zenodo.21227520](https://doi.org/10.5281/zenodo.21227520)
 
 The GraphCast rainfall forecasts come from the open **NOAA AIWP** hindcast (GraphCast-GFS, 0.25°,
 6-hourly). Underlying inputs are publicly available from their providers: streamflow telemetry and

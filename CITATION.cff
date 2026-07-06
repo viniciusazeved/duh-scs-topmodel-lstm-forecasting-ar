@@ -21,6 +21,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-2121-3059"
     affiliation: "School of Civil Engineering, Architecture and Urban Design (FECFAU), University of Campinas (UNICAMP)"
 version: 1.0.0
+doi: 10.5281/zenodo.21227520
 license: MIT
 repository-code: "https://github.com/viniciusazeved/duh-scs-topmodel-lstm-forecasting-ar"
 keywords:
