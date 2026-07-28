@@ -21,7 +21,7 @@ River catchment (Manuel Duarte, ANA gauge 58585000, ~3,117 km², Brazilian Atlan
 
 This repository accompanies the article *"Observed discharge, embedded physics or forecast
 rainfall? Attributing the sources of skill of a differentiable hourly streamflow forecaster"*
-(Azevedo & Fagundes, *Journal of Hydrology*, manuscript in preparation). It is the forecasting
+(Azevedo, Oliveira & Fagundes, *Journal of Hydrology*, manuscript in preparation). It is the forecasting
 companion of the continuous-simulation package
 [`duh-scs-topmodel-lstm-continuous`](https://github.com/viniciusazeved/duh-scs-topmodel-lstm-continuous).
 
@@ -171,4 +171,4 @@ See [`CITATION.cff`](CITATION.cff). Please cite both the article and this archiv
 
 ## License
 
-[MIT](LICENSE) © 2026 Vinicius Azevedo, Hugo de Oliveira Fagundes.
+[MIT](LICENSE) © 2026 Vinicius Azevedo, Paulo Tarso S. Oliveira, Hugo de Oliveira Fagundes.
