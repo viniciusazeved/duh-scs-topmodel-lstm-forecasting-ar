@@ -1,0 +1,34 @@
+Rio Preto 58585000 | janela 2024-11-01->2025-04-01 | leads [6, 12, 18, 24] | escala 27830.0m
+OBS 6h: 23376 buckets, 2010-01-01 06:00:00+00:00 -> 2026-01-01 00:00:00+00:00
+
+[1/4] GFS (parquet)...
+
+[2/4] WeatherNext 2 mean (GEE)...
+  [wn2_mean] 604 feats em 22s
+
+[3/4] WeatherNext Graph deterministico HRES (GEE)...
+  [wn_det_hres] 604 feats em 22s
+
+[4/4] WeatherNext 2 ENSEMBLE 64 membros (GEE)...
+  [wn2_ens] 151 inits 00z. Extraindo por init...
+    1/151 (15s)
+    20/151 (236s)
+    40/151 (454s)
+    60/151 (675s)
+    80/151 (888s)
+    100/151 (1098s)
+    120/151 (1308s)
+    140/151 (1524s)
+    151/151 (1643s)
+  [wn2_ens] membros/celula (deve ser ~64): 64..64
+
+===== METRICAS DE SKILL DE CHUVA (rio Preto, teste Paper 2) =====
+Traceback (most recent call last):
+  File "C:\Users\vinic\AppData\Local\Temp\claude\D--Artigo-JOH\aa28a107-7cab-498d-b037-52aed9439a3c\scratchpad\probe_weathernext_peak.py", line 212, in <module>
+    main()
+  File "C:\Users\vinic\AppData\Local\Temp\claude\D--Artigo-JOH\aa28a107-7cab-498d-b037-52aed9439a3c\scratchpad\probe_weathernext_peak.py", line 195, in main
+    print(met, flush=True)
+  File "C:\Users\vinic\AppData\Roaming\uv\python\cpython-3.11.14-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 17-133: character maps to <undefined>

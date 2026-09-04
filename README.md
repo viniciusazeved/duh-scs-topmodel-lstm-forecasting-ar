@@ -71,7 +71,9 @@ duh-scs-topmodel-lstm-forecasting-ar/
 │   ├── persistencia_baseline.py # naive/damped persistence benchmark (B2)
 │   ├── skill_fig.py / skill_forcante.py   # GraphCast forcing-skill characterisation
 │   ├── rerender_curva_nse_lead.py / rerender_skill_fig.py   # figures (EN)
-│   └── skill_{gfs,ifs}.csv       # forcing-skill tables
+│   ├── skill_{gfs,ifs,hres}.csv  # forcing-skill tables (GFS-, IFS- and HRES-initialised)
+│   ├── skill_hres_add.py         # adds the HRES-initialised feed to the skill comparison
+│   └── weathernext_probe/        # WeatherNext 2 ensemble probe (peak-capture metrics + GEE extraction)
 └── outputs/
     ├── grade_ar/  grade_gc/     # per-run results.json (per-lead NSE, learned physical params)
     ├── teste_isolado_gc.json  teste_isolado_gc_bylead.json  persistencia_baseline.json
